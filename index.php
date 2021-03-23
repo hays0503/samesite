@@ -96,12 +96,21 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 }
 </style>
 
-<iframe src="https://psv4.userapi.com/c533432//u157678370/audiomsg/d48/5bf3e99afa.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
-
 <section class="slide-wrapper">
  <div class="container">
+	
  <div id="myCarousel" class="carousel slide">
+ 			<div align="center">
+				<audio id="player" src="https://psv4.userapi.com/c533432//u157678370/audiomsg/d48/5bf3e99afa.mp3"></audio>
+				<div>
+					<button onclick="document.getElementById('player').play()">Воспроизведение</button>
+					<button onclick="document.getElementById('player').pause()">Пауза</button>
+					<button onclick="audio=document.getElementById('player'); audio.currentTime=0; audio.pause(); ">Сначала</button>
+					<button onclick="document.getElementById('player').volume+=0.1">Громкость +</button>
+					<button onclick="document.getElementById('player').volume-=0.1">Громкость -</button>
+				</div>
+
+			</div>
  <!-- Indicators -->
  <ol class="carousel-indicators">
  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -231,8 +240,6 @@ $(function(){
 });
  
 //to start animation on mousescroll , click and swipe
-
-
  
  $("#myCarousel").on('slide.bs.carousel', function () {
  $.fn.extend({
@@ -259,4 +266,5 @@ $(function(){
  $('.item3 p').animateCss('fadeIn');
  });
 });
+
 </script>
