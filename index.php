@@ -49,16 +49,19 @@ width:auto;
  width: 100%;
  text-align: center;
  }
+ 
 .item img{margin:auto;visibility:hidden; opacity:0; transition:all 0.3s ease; -webkit-transition:all 0.3s ease; -moz-transition:all 0.3s ease; -ms-transition:all 0.3s ease; -o-transition:all 0.3s ease;}
-.item1 .carousel-img img , .item1.active .carousel-img img{max-height:300px;}
+
+.item1 .carousel-img img , .item1.active .carousel-img img{max-height:600px;}
 .item1.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 1s ease; -webkit-transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease;
 animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s; -ms-animation-duration:2s; -o-animation-duration:2s; animation-delay:0.3s ; -webkit-animation-delay:0.3s;
 -moz-animation-delay:0.3s;-ms-animation-delay:0.3s; }
+
 .item .carousel-desc{color:#fff; text-align:center;}
 .item h2{font-size:50px; animation-delay:1.5s;animation-duration:1s; }
 .item p{animation-delay:2.5s;animation-duration:1s; width:50%; margin:auto;}
 
-.item2 .carousel-img img , .item2.active .carousel-img img{max-height:300px;}
+.item2 .carousel-img img , .item2.active .carousel-img img{max-height:600px;}
 .item2.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
 .item2 h2 , item2.active h2{visibility:hidden; opacity:0; transition:all 5s ease;}
 .item2.active h2.animated{visibility:visible; opacity:1; animation-delay:3s;}
@@ -93,6 +96,9 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 }
 </style>
 
+<iframe src="https://psv4.userapi.com/c533432//u157678370/audiomsg/d48/5bf3e99afa.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+
 <section class="slide-wrapper">
  <div class="container">
  <div id="myCarousel" class="carousel slide">
@@ -109,52 +115,52 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
  <div class="fill" style=" background-color:#48c3af;">
  <div class="inner-content">
  <div class="carousel-img">
- <img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
- </div>
- <div class="carousel-desc">
+ <img src="https://instagram.fkgf1-2.fna.fbcdn.net/v/t51.2885-15/e35/158612111_241495167679728_3283610710672440824_n.jpg?tp=1&_nc_ht=instagram.fkgf1-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=NQbtz9SR370AX_itBm9&ccb=7-4&oh=827126780f8c28ff931bb0c4bdb275b0&oe=6084CF25&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+			 </div>
+				<div class="carousel-desc">
 
- <h2>Modern Designer Sofa</h2>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+					<h2>Modern Designer Sofa</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
 
- </div>
+			 </div>
  </div>
  </div>
  </div>
  <div class="item item2">
- <div class="fill" style="background-color:#b33f4a;">
- <div class="inner-content">
- <div class="carousel-img">
- <img src="http://cdn.homedit.com/wp-content/uploads/2011/08/137CLUB2ST.png" alt="white-sofa" class="img img-responsive" />
- </div>
- <div class="carousel-desc">
+	 <div class="fill" style="background-color:#b33f4a;">
+		 <div class="inner-content">
+			 <div class="carousel-img">
+			 <img src="https://instagram.fkgf1-2.fna.fbcdn.net/v/t51.2885-15/e35/137599610_171618821382507_1282084522955448487_n.jpg?tp=1&_nc_ht=instagram.fkgf1-2.fna.fbcdn.net&_nc_cat=103&_nc_ohc=g5-M8t-CYjYAX-lxqp-&ccb=7-4&oh=464fb4693217a16de0af86db29142dfc&oe=608308F8&_nc_sid=4f375e" alt="white-sofa" class="img img-responsive" />
+			 </div>
+			 <div class="carousel-desc">
 
- <h2>Vintage Style Sofa</h2>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+			 <h2>Vintage Style Sofa</h2>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
 
- </div>
- </div>
- </div>
+			 </div>
+		 </div>
+	 </div>
  </div>
  <div class="item item3">
- <div class="fill" style="background-color:#7fc2f4;">
- <div class="inner-content">
- <div class="col-md-6">
+	<div class="fill" style="background-color:#7fc2f4;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
 
- <div class="carousel-img">
- <img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
- </div>
- </div>
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/151290239_238892334578318_8734180235055184565_n.jpg?tp=1&_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=CIW9DWNTdmsAX8ywSxG&ccb=7-4&oh=cfec2f58daf4cfd5caa26ac418449b56&oe=608230DC&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
 
- <div class="col-md-6 text-left">
- <div class="carousel-desc">
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
 
- <h2>Stylish Sofa</h2>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+				 <h2>Stylish Sofa</h2>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
 
- </div>
- </div>
- </div>
- </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
  </div>
 
  </div>
