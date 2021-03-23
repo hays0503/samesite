@@ -77,6 +77,60 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 .item3 p , item3.active p{visibility:hidden; opacity:0; transition:all 5s ease; width:100%; }
 .item3.active p.animated{visibility:visible; opacity:1; animation-delay:2.5s;}
 
+.item4.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:2s; animation-delay:0.3s}
+.item4 h2 , item4.active h2{visibility:hidden; opacity:0; transition:all 5s ease; }
+.item.item4 .carousel-desc{text-align:right;}
+.item4.active h2.animated{visibility:visible; opacity:1; animation-delay:1.5s}
+.item4 p , item4.active p{visibility:hidden; opacity:0; transition:all 5s ease; width:100%; }
+.item4.active p.animated{visibility:visible; opacity:1; animation-delay:2.5s;}
+
+.item5 .carousel-img img , .item5.active .carousel-img img{max-height:600px;}
+.item5.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item5 h2 , item2.active h2{visibility:hidden; opacity:0; transition:all 5s ease;}
+.item5.active h2.animated{visibility:visible; opacity:1; animation-delay:3s;}
+
+.item6 .carousel-img img , .item6.active .carousel-img img{max-height:600px;}
+.item7 .carousel-img img , .item7.active .carousel-img img{max-height:600px;}
+.item8 .carousel-img img , .item8.active .carousel-img img{max-height:600px;}
+.item9 .carousel-img img , .item9.active .carousel-img img{max-height:600px;}
+.item10 .carousel-img img , .item10.active .carousel-img img{max-height:600px;}
+.item11 .carousel-img img , .item11.active .carousel-img img{max-height:600px;}
+.item12 .carousel-img img , .item12.active .carousel-img img{max-height:600px;}
+.item13 .carousel-img img , .item13.active .carousel-img img{max-height:600px;}
+.item14 .carousel-img img , .item14.active .carousel-img img{max-height:600px;}
+.item15 .carousel-img img , .item15.active .carousel-img img{max-height:600px;}
+.item16 .carousel-img img , .item16.active .carousel-img img{max-height:600px;}
+.item17 .carousel-img img , .item17.active .carousel-img img{max-height:600px;}
+.item18 .carousel-img img , .item18.active .carousel-img img{max-height:600px;}
+.item19 .carousel-img img , .item19.active .carousel-img img{max-height:600px;}
+.item20 .carousel-img img , .item20.active .carousel-img img{max-height:600px;}
+
+
+.item6.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item7.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item8.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item9.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item10.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item11.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item12.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item13.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item14.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item15.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item16.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item17.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item18.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item19.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+.item20.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
+
+   h2 {
+	align="left";
+    font-size: 300%; /* Размер шрифта в процентах */ 
+   }
+   p {
+	align="left";
+    font-size: 250%; /* Размер шрифта в процентах */ 
+   }    
+
 @media(max-width:991px)
 {
  .item .carousel-desc , .item.item3 .carousel-desc{text-align:center;}
@@ -114,8 +168,26 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
  <!-- Indicators -->
  <ol class="carousel-indicators">
  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
- <li data-target="#myCarousel" data-slide-to="1"></li>
- <li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	<li data-target="#myCarousel" data-slide-to="5"></li>
+	<li data-target="#myCarousel" data-slide-to="6"></li>
+	<li data-target="#myCarousel" data-slide-to="7"></li>
+	<li data-target="#myCarousel" data-slide-to="8"></li>
+	<li data-target="#myCarousel" data-slide-to="9"></li>
+	<li data-target="#myCarousel" data-slide-to="10"></li>
+	<li data-target="#myCarousel" data-slide-to="11"></li>
+	<li data-target="#myCarousel" data-slide-to="12"></li>
+	<li data-target="#myCarousel" data-slide-to="13"></li>
+	<li data-target="#myCarousel" data-slide-to="14"></li>
+	<li data-target="#myCarousel" data-slide-to="15"></li>
+	<li data-target="#myCarousel" data-slide-to="16"></li>
+	<li data-target="#myCarousel" data-slide-to="17"></li>
+	<li data-target="#myCarousel" data-slide-to="18"></li>
+	<li data-target="#myCarousel" data-slide-to="19"></li>
+	<li data-target="#myCarousel" data-slide-to="20"></li>
  </ol>
 
  <!-- Wrapper for slides -->
@@ -128,8 +200,12 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 			 </div>
 				<div class="carousel-desc">
 
-					<h2>Modern Designer Sofa</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+					<h2><font color="red">❤❤❤</font>Кристина<font color="red">❤❤❤</font></h2>
+						<p>Для того чтобы действительно начать.... <br>
+						новую жизнь!✨ <br>
+						нужно избавиться от того что тянет в прошлое ⛓🥀 <br>
+						просто его отпустить и не жалеть о том что было а <br>
+						поверить в себя и в удачу ! 🍀</p>
 
 			 </div>
  </div>
@@ -143,8 +219,10 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 			 </div>
 			 <div class="carousel-desc">
 
-			 <h2>Vintage Style Sofa</h2>
-			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+			 <h2><font color="red">❤❤❤</font>Любимая<font color="red">❤❤❤</font></h2>
+			 <p>	спасибо тебе моя любимая за то<br>
+					что ты просто есть в моей жизни 💫❤<br>
+					каждый прожитый день благодаря тебе становится ярче краше и интереснее 💥📣🔥</p>
 
 			 </div>
 		 </div>
@@ -163,15 +241,404 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 				 <div class="col-md-6 text-left">
 				 <div class="carousel-desc">
 
-				 <h2>Stylish Sofa</h2>
-				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+				 <h2><font color="red">❤❤❤</font>Зайка<font color="red">❤❤❤</font></h2>
+				 <p>это по-настоящему большое чудо понимать<br>
+					что со мной есть настолько близкий чувственный и отзывчивый человек 🔥🌝<br>
+					спасибо за твою поддержку и за те чудесные эмоции которые ты мне даришь ❣</p>
 
 				 </div>
 			 </div>
 		 </div>
 	 </div>
  </div>
+ <div class="item item4">
+	<div class="fill" style="background-color:#9fc2f4;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
 
+				 <div class="carousel-img">
+				 <img src="https://sun9-26.userapi.com/impg/6owz7zBiDKBl_bk_v0yj4Gt5HVy08gqTR9MydQ/F4RfcLGlG3E.jpg?size=420x682&quality=96&sign=ec483fe791f9fa3f5f619baea06a303d&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Киска<font color="red">❤❤❤</font></h2>
+				 <p>спасибо.......... за то что со мной честна ‼❗‼🙈<br></p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item5">
+	<div class="fill" style="background-color:#d05b1f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-17.userapi.com/impg/DL1lVyufu1Agx4hcSc7o6y-lAWjv763SLtlUBQ/ZqFvcX12-l8.jpg?size=660x1217&quality=96&sign=8179df35a3f5b1b1822a9e3ee960043c&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Родная<font color="red">❤❤❤</font></h2>
+				 <p>спасибо..........<br>
+				 за то просто за то что ты есть в моей жизни<br>
+				 за то что с каждым прожитым нами днем ты делаешь ее удивительней ярче и интересней<br>
+				 за то что ты всегда можешь выслшуать мой бред таких как ты практически нет<br>
+				 и это большое счастье иметь в своем окружении столь отзывчивого доброго понимающего и чуткого человека ☝🏻😅</p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item6">
+	<div class="fill" style="background-color:#2c62d6;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-66.userapi.com/impg/MCjHh5B7CnbqMU4mbaWvB2zl4HaeR6nWVweODQ/SOSCOUrUz4Y.jpg?size=586x1080&quality=96&sign=b9e440bb879a587d48fac37ced827306&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Жопка моя<font color="red">❤❤❤</font></h2>
+				 <p>спасибо.......... за то тебе за твою помощь твою бесконечную веру в меня и во все мои начинания 🤗</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item7">
+	<div class="fill" style="background-color:#738936;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-36.userapi.com/impg/P8K6qvoyzMDDQcr_-izcG-JQWSbuAS8r9tza7g/zPy4iLSeTUI.jpg?size=586x1080&quality=96&sign=d64796a56f03a807f235cfc03bb5c66f&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Жёнушка<font color="red">❤❤❤</font></h2>
+				 <p>спасибо.......... за то что ты меня терпишь<br>
+				 и за поддержку в те самые трудные минуты<br>
+				 когда мне буквально не хватало воздуха от эмоций но с тобой<br>
+				 мы все смогли преодолеть и не разбижаться просто потому что так проще 🌚❤🌝</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item8">
+	<div class="fill" style="background-color:#a56e8f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-69.userapi.com/impg/R4CLdF8P4HIKW-1sVGi9ueWzzHqj-RK05B5K3A/029IoTdYJ5s.jpg?size=586x1080&quality=96&sign=efa7928995819db2855cc952d52ec726&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Лучик мой<font color="red">❤❤❤</font></h2>
+				 <p>спасибо.......... за то что ты все что ты делаешь<br>
+				 для меня и очень ценю твое внимание и отзывчивость и честность 🙏🏻😌</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item9">
+	<div class="fill" style="background-color:#98e44e;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-10.userapi.com/impg/BI1-3oUr5gHFlCfmKwEUSl5zZVva75w7oUoCZg/MHQAfGJw8Y8.jpg?size=586x1080&quality=96&sign=54edec664440487fa0f0a1229158c91b&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Надежда моя<font color="red">❤❤❤</font></h2>
+				 <p>спасибо.......... за то что ты даёшь мне время приятные эмоции<br>
+				 и за твое большое доброе сердце которое<br>
+				 всегда отзывается на помощь и поддержку 😢🤗->🤪❤🤪</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item10">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-41.userapi.com/impg/2nQrG9WJrIAiTm1VUd-uPaUafD64LgsyNpcdQA/8J7xjn2GlWU.jpg?size=586x1080&quality=96&sign=6e2021c056bb70cea2426f9e9ff8da6e&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Заводная моя затейница<font color="red">❤❤❤</font></h2>
+				 <p>спасибо..........<br>
+				 огромное тебе за все.....<br>
+				 мне очень дорого твоё внимание Кристина<font color="red">❤❤❤</font> я искренне<br>
+				 хочу пожелать тебе огромного счастья мира<br>
+				 и добра за чуткость за отзывчивость за понимание 😋❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item11">
+	<div class="fill" style="background-color:#ec6ded;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-66.userapi.com/impg/kipzNQ8D_dMTY_sSwhC5j23gxqoi4EDfXcgWtg/2UxsM3aFuPc.jpg?size=586x1080&quality=96&sign=5c2d7d9b4c2e5d339586824085dadf28&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Нежная<font color="red">❤❤❤</font></h2>
+				 <p>спасибо..........<br>
+				 за то что твое появление в моей жизни смогло<br>
+				 сделать ее такой удивительной яркой и интересной<br>
+				 ты безграничное море чувств в которое мне хочется постоянно погружаться 😌❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item12">
+	<div class="fill" style="background-color:#23156b;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-49.userapi.com/impg/sLn5H7h2uVwGEyfgMrDJb8_PeuPKp5ReCEsiyA/vLgCq1scgmA.jpg?size=586x1080&quality=96&sign=b29970cdc6a0a7c02bbc1dabaf27ab27&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2>🍑🍑Персик🍑🍑</h2>
+				 <p>спасибо..........<br>
+				 за то что ты самый<br>
+				 сладкий сон и моя заветная мечта которой<br>
+				 суждено было исполниться 🤩🥰</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item13">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-51.userapi.com/impg/dv7w4CvLnWi5F8E_SH6MMze6Op63msAVvFGBAQ/_cprv6x5hYc.jpg?size=586x1080&quality=96&sign=680632272a33123b735e5cc044a5586e&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Снежинка<font color="red">❤❤❤</font></h2>
+				 <p>СПАСИБО!!!!!!!!!!<br>
+				 за то что я живу тобой и тобой же наслаждаюсь 😲❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item14">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-1.userapi.com/impg/-4uwN_y7kzygHKrUqlYpi_NNcDiGRUL7xA7NUA/vmCDXCANCcA.jpg?size=586x1080&quality=96&sign=3080f071b350f9af7ad0fc2919afb29d&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Незабудка<font color="red">❤❤❤</font></h2>
+				 <p>СПАСИБО!!!!!!!!!!<br> за то что ты мой персональный МИР который<br>
+				 я буду БЕРЕЧЬ и ХРАНИТЬ<br>
+				 чтобы никогда его НЕ ПОТЕРЯТЬ и НЕ РАЗРУШИТЬ НИКОГДА !!!!!❤💫❤</p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item15">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-2.fna.fbcdn.net/v/t51.2885-15/e15/106404236_275466440191728_1524376330510708333_n.jpg?tp=1&_nc_ht=instagram.fkgf1-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=u8sye7XcYRYAX_Taa43&ccb=7-4&oh=0f2083542964d5b0afdc755f671e6289&oe=6082B811&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Рыбка<font color="red">❤❤❤</font></h2>
+				 <p>спасибо..........<br>
+				 огромное тебе за все.....<br>
+				 мне очень дорого твоё внимание Кристина<font color="red">❤❤❤</font> я искренне<br>
+				 хочу пожелать тебе огромного счастья мира<br>
+				 и добра за чуткость за отзывчивость за понимание 😋❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item16">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/138328340_453068772523972_5714656807240360485_n.jpg?tp=1&_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=tpbx59OXP54AX84XuAb&ccb=7-4&oh=602dde06536be881ce98efc9a4be7bfc&oe=60841018&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Тигрёнок<font color="red">❤❤❤</font></h2>
+				<p>я хочу, чтобы мы с тобой умели говорить спасибо тому<br>
+				что осталось у нас спиной<br>
+				пусть это было неприятно и болезненно 👋🏻😥<br>
+				но оно непременно научило нас чему-то важному☝🏻🤔</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item17">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-2.fna.fbcdn.net/v/t51.2885-15/e35/120853403_171700624549390_6274507493396717336_n.jpg?tp=1&_nc_ht=instagram.fkgf1-2.fna.fbcdn.net&_nc_cat=110&_nc_ohc=VJCdWSSLXskAX98URmG&ccb=7-4&oh=94bc86eacd8e704d40e192d7bf3f7d19&oe=60855E8B&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Лисичка<font color="red">❤❤❤</font></h2>
+				 <p>И больше всего я желаю нам научиться<br>
+				 слышать своё сердце и полностью доверять услышанному ❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div> 
+ <div class="item item18">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/145869384_112770117450376_4584311427352378911_n.jpg?tp=1&_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=thk3yUXvff4AX_O4yaC&ccb=7-4&oh=7d820e973d734b17c5e4d49d967a85d6&oe=6082E32F&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Голубушка<font color="red">❤❤❤</font></h2>
+				 <p>Любовь – это не ты виноват" а "давай поговорим" !!!!!!<br>
+					Не "где ты" а "я здесь" !!!!<br>
+					Не "как ты мог" а "я тебя понимаю" !!!!<br>
+					Не "я бы хотел, что бы ты" а "спасибо за то что ты" !!!☝🏻😁❤</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>  
+ <div class="item item19">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://instagram.fkgf1-2.fna.fbcdn.net/v/t51.2885-15/e35/147454820_2779634678919947_4637193396844809863_n.jpg?tp=1&_nc_ht=instagram.fkgf1-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=cVErMcvo5CoAX8tyZar&ccb=7-4&oh=390806a46ed7da1f9d75581f559d97d8&oe=60827EC8&_nc_sid=4f375e" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Птичка<font color="red">❤❤❤</font></h2>
+				 <p>Вообщем Кристина<font color="red">❤❤❤</font> я тебя очень сильно люблю твой Сергей)<font color="red">❤❤❤</font></p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <div class="item item20">
+	<div class="fill" style="background-color:#a2132f;">
+		 <div class="inner-content">
+			 <div class="col-md-6">
+
+				 <div class="carousel-img">
+				 <img src="https://sun9-57.userapi.com/impg/nC8dI2Bq-o4iLlNbFMHZpeQJlCYffZTp6Q8N3w/NRvm_pFMbzY.jpg?size=900x696&quality=96&sign=fdc2bf244e798abfcf666ed0ea6aec35&type=album" alt="sofa" class="img img-responsive" />
+				 </div>
+				 </div>
+
+				 <div class="col-md-6 text-left">
+				 <div class="carousel-desc">
+
+				 <h2><font color="red">❤❤❤</font>Ласточка<font color="red">❤❤❤</font></h2>
+				 <p>я фиг знает какие ещё смайлики блин подбирать дальше 🤣🤣</p>
+
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>  
  </div>
  </div>
  </div>
@@ -182,7 +649,7 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 $(document).ready(function(){
 // invoke the carousel
  $('#myCarousel').carousel({
- interval:6000
+ interval:15000
  });
 
 // scroll slides on mouse scroll 
@@ -264,6 +731,84 @@ $(function(){
  $('.item3 img').animateCss('fadeInLeft');
  $('.item3 h2').animateCss('fadeInDown');
  $('.item3 p').animateCss('fadeIn');
+ 
+ $('.item4 img').animateCss('rollIn');
+ $('.item4 h2').animateCss('rollIn');
+ $('.item4 p').animateCss('rollIn');
+ 
+ $('.item5 img').animateCss('rollIn');
+ $('.item5 h2').animateCss('rollIn');
+ $('.item5 p').animateCss('rollIn');
+ 
+ $('.item5 img').animateCss('jackInTheBox');
+ $('.item5 h2').animateCss('jackInTheBox');
+ $('.item5 p').animateCss('jackInTheBox');
+ 
+ $('.item6 img').animateCss('rotateIn');
+ $('.item6 h2').animateCss('rotateIn');
+ $('.item6 p').animateCss('rotateIn');
+ 
+ $('.item7 img').animateCss('flipInX');
+ $('.item7 h2').animateCss('flipInX');
+ $('.item7 p').animateCss('flipInX');
+ 
+ $('.item8 img').animateCss('bounceInUp');
+ $('.item8 h2').animateCss('bounceInUp');
+ $('.item8 p').animateCss('bounceInUp');
+ 
+ $('.item9 img').animateCss('jello');
+ $('.item9 h2').animateCss('jello');
+ $('.item9 p').animateCss('jello');
+ 
+ $('.item10 img').animateCss('shakeX');
+ $('.item10 h2').animateCss('shakeX');
+ $('.item10 p').animateCss('shakeX');
+ 
+ $('.item11 img').animateCss('flash');
+ $('.item11 h2').animateCss('flash');
+ $('.item11 p').animateCss('flash');
+ 
+ $('.item12 img').animateCss('bounce');
+ $('.item12 h2').animateCss('bounce');
+ $('.item12 p').animateCss('bounce');
+ 
+  $('.item13 img').animateCss('slideInDown');
+ $('.item13 h2').animateCss('zoomIn');
+ $('.item13 p').animateCss('fadeIn');
+ 
+ $('.item14 img').animateCss('zoomIn');
+ $('.item14 h2').animateCss('swing');
+ $('.item14 p').animateCss('fadeIn');
+ 
+ $('.item15 img').animateCss('fadeInLeft');
+ $('.item15 h2').animateCss('fadeInDown');
+ $('.item15 p').animateCss('fadeIn');
+ 
+ $('.item16 img').animateCss('shakeX');
+ $('.item16 h2').animateCss('shakeX');
+ $('.item16 p').animateCss('shakeX');
+ 
+ $('.item17 img').animateCss('shakeX');
+ $('.item17 h2').animateCss('shakeX');
+ $('.item17 p').animateCss('shakeX');
+ 
+ $('.item18 img').animateCss('shakeX');
+ $('.item18 h2').animateCss('shakeX');
+ $('.item18 p').animateCss('shakeX');
+ 
+ $('.item19 img').animateCss('shakeX');
+ $('.item19 h2').animateCss('shakeX');
+ $('.item19 p').animateCss('shakeX');
+ 
+ $('.item20 img').animateCss('shakeX');
+ $('.item20 h2').animateCss('shakeX');
+ $('.item20 p').animateCss('shakeX');
+ 
+ $('.item8 img').animateCss('bounceInUp');
+ $('.item8 h2').animateCss('bounceInUp');
+ $('.item8 p').animateCss('bounceInUp');
+ 
+ 
  });
 });
 
