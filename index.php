@@ -103,11 +103,11 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
  			<div align="center">
 				<audio id="player" src="https://psv4.userapi.com/c533432//u157678370/audiomsg/d48/5bf3e99afa.mp3"></audio>
 				<div>
-					<button onclick="document.getElementById('player').play()">Воспроизведение</button>
-					<button onclick="document.getElementById('player').pause()">Пауза</button>
-					<button onclick="audio=document.getElementById('player'); audio.currentTime=0; audio.pause(); ">Сначала</button>
-					<button onclick="document.getElementById('player').volume+=0.1">Громкость +</button>
-					<button onclick="document.getElementById('player').volume-=0.1">Громкость -</button>
+					<button onclick="document.getElementById('player').play()"><h3>Воспроизведение</h3></button>
+					<button onclick="document.getElementById('player').pause()"><h3>Пауза</h3></button>
+					<button onclick="audio=document.getElementById('player'); audio.currentTime=0; audio.pause(); "><h3>Сначала</h3></button>
+					<button onclick="document.getElementById('player').volume+=0.1"><h3>Громкость +</h3></button>
+					<button onclick="document.getElementById('player').volume-=0.1"><h3>Громкость -</h3></button>
 				</div>
 
 			</div>
